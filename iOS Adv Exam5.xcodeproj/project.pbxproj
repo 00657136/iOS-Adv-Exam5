@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		534741E623CC1E3E00AC0E08 /* TVService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534741E523CC1E3E00AC0E08 /* TVService.swift */; };
+		534741E823CC537200AC0E08 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534741E723CC537200AC0E08 /* detailViewController.swift */; };
 		9B56D102236EDD5400002757 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D101236EDD5400002757 /* AppDelegate.swift */; };
 		9B56D104236EDD5400002757 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D103236EDD5400002757 /* SceneDelegate.swift */; };
 		9B56D106236EDD5400002757 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D105236EDD5400002757 /* ViewController.swift */; };
-		9B56D109236EDD5400002757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D107236EDD5400002757 /* Main.storyboard */; };
+		9B56D109236EDD5400002757 /* Problem8.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D107236EDD5400002757 /* Problem8.storyboard */; };
 		9B56D10B236EDD5500002757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D10A236EDD5500002757 /* Assets.xcassets */; };
 		9B56D10E236EDD5500002757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D10C236EDD5500002757 /* LaunchScreen.storyboard */; };
+		9B56D11A236EE8A200002757 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D115236EE8A100002757 /* MovieCollectionViewCell.swift */; };
+		9B56D11B236EE8A200002757 /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D116236EE8A100002757 /* Problem8.swift */; };
+		9B56D11C236EE8A200002757 /* MovieConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D117236EE8A200002757 /* MovieConfiguration.swift */; };
+		9B56D11D236EE8A200002757 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D118236EE8A200002757 /* MovieService.swift */; };
+		9B56D11E236EE8A200002757 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D119236EE8A200002757 /* NowPlaying.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		534741E523CC1E3E00AC0E08 /* TVService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVService.swift; sourceTree = "<group>"; };
+		534741E723CC537200AC0E08 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		9B56D0FE236EDD5400002757 /* iOS Adv Exam5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Adv Exam5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B56D101236EDD5400002757 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B56D103236EDD5400002757 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9B56D105236EDD5400002757 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9B56D108236EDD5400002757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B56D108236EDD5400002757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Problem8.storyboard; sourceTree = "<group>"; };
 		9B56D10A236EDD5500002757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B56D10D236EDD5500002757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B56D10F236EDD5500002757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B56D115236EE8A100002757 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B56D116236EE8A100002757 /* Problem8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem8.swift; sourceTree = "<group>"; };
+		9B56D117236EE8A200002757 /* MovieConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieConfiguration.swift; sourceTree = "<group>"; };
+		9B56D118236EE8A200002757 /* MovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		9B56D119236EE8A200002757 /* NowPlaying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +72,15 @@
 			children = (
 				9B56D101236EDD5400002757 /* AppDelegate.swift */,
 				9B56D103236EDD5400002757 /* SceneDelegate.swift */,
+				9B56D115236EE8A100002757 /* MovieCollectionViewCell.swift */,
+				9B56D116236EE8A100002757 /* Problem8.swift */,
+				9B56D117236EE8A200002757 /* MovieConfiguration.swift */,
+				9B56D118236EE8A200002757 /* MovieService.swift */,
+				534741E523CC1E3E00AC0E08 /* TVService.swift */,
+				9B56D119236EE8A200002757 /* NowPlaying.swift */,
 				9B56D105236EDD5400002757 /* ViewController.swift */,
-				9B56D107236EDD5400002757 /* Main.storyboard */,
+				9B56D107236EDD5400002757 /* Problem8.storyboard */,
+				534741E723CC537200AC0E08 /* detailViewController.swift */,
 				9B56D10A236EDD5500002757 /* Assets.xcassets */,
 				9B56D10C236EDD5500002757 /* LaunchScreen.storyboard */,
 				9B56D10F236EDD5500002757 /* Info.plist */,
@@ -127,7 +148,7 @@
 			files = (
 				9B56D10E236EDD5500002757 /* LaunchScreen.storyboard in Resources */,
 				9B56D10B236EDD5500002757 /* Assets.xcassets in Resources */,
-				9B56D109236EDD5400002757 /* Main.storyboard in Resources */,
+				9B56D109236EDD5400002757 /* Problem8.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +159,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534741E623CC1E3E00AC0E08 /* TVService.swift in Sources */,
 				9B56D106236EDD5400002757 /* ViewController.swift in Sources */,
 				9B56D102236EDD5400002757 /* AppDelegate.swift in Sources */,
+				534741E823CC537200AC0E08 /* detailViewController.swift in Sources */,
+				9B56D11B236EE8A200002757 /* Problem8.swift in Sources */,
+				9B56D11E236EE8A200002757 /* NowPlaying.swift in Sources */,
 				9B56D104236EDD5400002757 /* SceneDelegate.swift in Sources */,
+				9B56D11A236EE8A200002757 /* MovieCollectionViewCell.swift in Sources */,
+				9B56D11C236EE8A200002757 /* MovieConfiguration.swift in Sources */,
+				9B56D11D236EE8A200002757 /* MovieService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9B56D107236EDD5400002757 /* Main.storyboard */ = {
+		9B56D107236EDD5400002757 /* Problem8.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9B56D108236EDD5400002757 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Problem8.storyboard;
 			sourceTree = "<group>";
 		};
 		9B56D10C236EDD5500002757 /* LaunchScreen.storyboard */ = {
@@ -286,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS Adv Exam5/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS Adv Exam5/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
