@@ -190,6 +190,24 @@ class Problem8: UICollectionViewController {
 //            }
        }
     
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MovieCollectionViewCell", for: indexPath) as! MovieCollectionViewCell
+        let movie = movies[indexPath.item]
+        let vc = storyboard?.instantiateViewController(identifier: "detailViewController") as? detailViewController
+        MovieService.shared.getImage(url: movie.posterUrl) { (image) in
+            if let image = image {
+                //DispatchQueue.main.async {
+                    vc?.posterImage = image
+                    //vc?.posterImage = image
+                //}
+            }
+        }
+        //vc?.posterImage = MovieService.shared.getImage(url: movie.posterUrl)
+        vc?.detailText = movie.overview!
+        vc?.movietitle = movie.title!
+        vc?.voteAverage = movie.voteAverage!
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         

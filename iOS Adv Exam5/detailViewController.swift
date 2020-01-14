@@ -11,18 +11,35 @@ import UIKit
 class detailViewController: UIViewController {
     @IBOutlet weak var moviePoster: UIImageView!
     @IBOutlet weak var movieDetail: UILabel!
+    @IBOutlet weak var movieTitle: UILabel!
     
+    @IBOutlet weak var VoteAverage: UILabel!
+    var movies = [Movie]()
+     var detailText = ""
+    var posterImage : UIImage?
+    var voteAverage : Float = 0
+    var movietitle = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        movieDetail.numberOfLines = 7
+        moviePoster.image = posterImage
+        movieDetail.numberOfLines = 15
+        movieDetail.text = detailText
+        movieTitle.text = movietitle
+        VoteAverage.text = "評價為：\(voteAverage)分"
         // Do any additional setup after loading the view.
     }
     
-
-    @IBSegueAction func sendDetail(_ coder: NSCoder) -> detailViewController? {
-        return <#detailViewController(coder: coder)#>
-    }
+//
+//    @IBSegueAction func sendDetail(_ coder: NSCoder) -> detailViewController? {
+//
+//
+//        return detailViewController(coder: coder)
+//    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
